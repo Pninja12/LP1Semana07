@@ -16,7 +16,7 @@ namespace GameUnits
         }
 
         public void Attack(Unit u){
-            XP += 10;
+            XP += 1;
             u.Health -= AttackPower;
         }
 
