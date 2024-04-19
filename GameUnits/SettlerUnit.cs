@@ -15,6 +15,9 @@ namespace GameUnits
             {
                 return 5;
             }
+            set{
+                
+            }
         }
     }
 }

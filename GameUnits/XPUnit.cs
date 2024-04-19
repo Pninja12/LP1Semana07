@@ -14,7 +14,7 @@ namespace GameUnits
             XP = 0;
         }
         public int XP{ get; protected set; }
-        public override float Cost{ get; }
+        public override float Cost{ get; set; }
 
         public override string ToString()
         {

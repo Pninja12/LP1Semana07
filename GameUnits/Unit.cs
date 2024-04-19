@@ -15,11 +15,11 @@ namespace GameUnits
             return movement;
         }
 
-        public abstract float Cost{ get; }
+        public abstract float Cost{ get; set; }
 
         public override string ToString()
         {
-            return $"{GetType()}: HP={Health} COST={Cost:f2}";
+            return $"{this.GetType().Name}: HP={Health} COST={Cost:f2}";
         }
     }
 }
